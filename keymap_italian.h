@@ -70,7 +70,7 @@
 #define IT_APOS KC_MINS  // ', ?, `,
 
 #define IT_BKSL KC_GRAVE // \, |, ¬, ¦  (backslash)
-
+#define IT_EACA LSFT(IT_EACC) // é: italian accented e with acute accent
 
 // #define IT_ACUT XXXXXX // accent acute ´
 
@@ -111,5 +111,8 @@
 #define IT_IQST ALGR(IT_QST)	// ¿
 #define IT_IEXL ALGR(IT_EXLM)	// ¡
 #define	IT_HASH	ALGR(IT_AACC) 	// #
+
+#define DEBUG   DB_TOGG 
+#define RESET   QK_BOOT
 
 #endif
